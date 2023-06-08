@@ -94,7 +94,7 @@ table{
     background-image: url(crown.png);
     height: 400px;
     width: 65%;
-    margin-left: 30%;
+    margin-left: 34%;
     margin-right: 12%;
     text-align: center;
     background-repeat: no-repeat;
@@ -103,14 +103,14 @@ table{
  
  #custom-select select{
 text-align: center;
-margin-top: 15%;
-margin-right: 29%;
+margin-top: 10%;
+margin-left: -52%;
 padding: 2%;
-font-size: 22px;
- background-color: transparent;
+font-size: 12px;
+background-color: rgb(36, 1, 36);
 color: rgb(231, 143, 11);
 border-radius: 12% 0;
-width: 25%;
+width: 22%;
 border-color:gold ; 
  }
   select{
@@ -134,49 +134,206 @@ border-color:gold ;
     font-style: italic;
     color: white;
  }
+ 
 
- @media screen and (max-width:900px) {
+
+ @media screen and (max-width:375px) {
     #tables tr{
         margin-bottom:5px;  
      }
      td,
      th{
-        border: 2px solid rgb(233, 146, 17);
-        padding: 100px 50px;
+        border: 1px solid rgb(233, 146, 17);
         background-color: transparent;
-        font-size: small;
-        margin-left: 12%;
+        font-size: 12px;
      }
      .float{
         padding: 10px 5px;
       
      }
-     .head{
-        font-style: italic;
-        color: white;
-        font-size: smaller;
-     }
      
- }
- @media screen and(max-width:837px){
-    td,
-    th{
-       border: 2px solid rgb(233, 146, 17);
-       padding: 300px 50px;
-       background-color: transparent;
-       font-size: small;
-       margin-left: 12%;
-    }
- }
- @media screen and(max-width:538px){
-    td,
-    th{
-       border: 2px solid rgb(233, 146, 17);
-       padding: 500px 50px;
-       background-color: transparent;
-       font-size: small;
-       margin-left: 4%;
-    } 
- }
+     table {
+      width: 300px;
+      border-collapse: collapse;
+      margin: 10px auto;
+     
+   }
+   #form {
+      margin-left: 18%;
+      margin-right: 24%;
+      height: 500px;
+       width: 65%; 
+   }
+   #custom-select {
+      
+      height: 300px;
+      width: 95%;
+      padding-left: 18%;
+      margin-left:-2.5%;
+      margin-top: 12%;
+   }
+   
+   #custom-select select {
+     
+      margin-top: 20%;
+      margin-right: -25%;
+      padding: 2%;
+      width: 35%;
     
- 
+   } 
+ }
+ @media screen and (max-width:414px){
+   table {
+      width: 300px;
+      border-collapse: collapse;
+      margin: 10px auto;
+     
+   }
+   #form {
+      margin-left: 18%;
+      margin-right: 24%;
+      height: 500px;
+       width: 65%; 
+   }
+   #custom-select {
+      
+      height: 300px;
+      width: 95%;
+      padding-left: 18%;
+      margin-left:-2.5%;
+      margin-top: 12%;
+   }
+   
+   #custom-select select {
+     
+      margin-top: 20%;
+      margin-right: -25%;
+      padding: 2%;
+      width: 25%;
+      font-size: 8px;
+   } 
+ }
+ @media screen  and (max-width:912px){
+   #custom-select select {
+     
+      margin-top: 20%;
+      margin-right: -25%;
+      padding: 2%;
+      width: 25%;
+      font-size: 8px;
+   } 
+ }
+ @media screen  and (max-width:540px){
+   #custom-select select {
+     
+      margin-top: 20%;
+      margin-right: -0%;
+      padding: 2%;
+      width: 25%;
+      font-size: 8px;
+   } 
+   #custom-select {
+      
+      height: 300px;
+      width: 95%;
+      padding-left: 18%;
+      margin-left:12%;
+      margin-top: 12%;
+ }
+}
+@media screen and (max-width:280px){
+   table {
+      width: 95px;
+      border-collapse: collapse;
+      margin: 10px auto;
+     
+   }
+   #form {
+      margin-left: 18%;
+      margin-right: 24%;
+      height: 500px;
+       width: 75%; 
+   }
+   #custom-select {
+      
+      height: 300px;
+      width: 95%;
+      padding-left: 18%;
+      margin-left:-2.3%;
+      margin-top: 12%;
+      margin-left: -8%;
+   }
+   
+   #custom-select select {
+     
+      margin-top: 20%;
+      margin-right: -25%;
+      padding: 2%;
+      width: 25%;
+      font-size: 8px;
+   } 
+}
+@media screen and (max-width:505px){
+   table {
+      width: 95px;
+      border-collapse: collapse;
+      margin: 10px auto;
+     
+   }
+   #form {
+      margin-left: 18%;
+      margin-right: 24%;
+      height: 500px;
+       width: 75%; 
+   }
+   #custom-select {
+      
+      height: 300px;
+      width: 95%;
+      padding-left: 18%;
+      margin-right:3%;
+      margin-top: 12%;
+      margin-left: -8%;
+   }
+   
+   #custom-select select {
+     
+      margin-top: 20%;
+      margin-right: -25%;
+      padding: 2%;
+      width: 25%;
+      font-size: 8px;
+   }  
+}
+@media screen and (max-width:255px) {
+   table {
+      width: 95px;
+      border-collapse: collapse;
+      margin: 10px auto;
+     
+   }
+   #form {
+      margin-left: 18%;
+      margin-right: 24%;
+      height: 500px;
+       width: 75%; 
+   }
+   #custom-select {
+      
+      height: 300px;
+      width: 95%;
+      padding-left: 18%;
+      margin-left:-2.3%;
+      margin-top: 12%;
+      margin-left: -8%;
+   }
+   
+   #custom-select select {
+     
+      margin-top: 20%;
+      margin-right: -25%;
+      padding: 2%;
+      width: 25%;
+      font-size: 8px;
+   } 
+}
