@@ -5,84 +5,163 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
     
     <title>Document</title>
 </head>
 <body>
+
     <div class="container">
     <div class="navbar">
         <a href="index.html" href="">Home</a>
-        <a href=#form>Registration Form</a>
-        <a href=#custom-select>Holiday Gifts</a>
-        <a href=#tables>Table</a>
+        <a href=#form>Registration</a>
+        <a href=#custom-select> Gifts</a>
+        <a href=#tables>Save</a>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Library</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="inspitarional.html">Inspiration</a>
+            <a href="nature.html">Nature</a>
+            <a href="love.html">Love</a>
+            <a href="Social and Political">Social &<br>Political</a>
+            <a href="Sad and Grief ">Sad&<br>Grief</a>
+            <a href="Historical and Narrative">Historical&<br>Narrative</a>
+            <a href="Personal Growth and Reflection"> Growth&<br>Reflection</a>
+            <a href="Odes and Elegise"> Odes&<br>Elegies</a>
+            <a href="War and Peace">War&<br>Peace</a>
+          </div>
+        </div>
+        
      </div><br>
 <div class="background">
     <img src="crown.png" alt="" class="backgrounds">
+    <header>
+      <h1 id="title">Welcome</h1>
+      <div id="language-switcher">
+        <select id="language-select" onchange="changeLanguage()">
+          <option value="en">English</option>
+          <option value="fr">French</option>
+          <option value="r">Swahili</option>
+        </select>
+      </div>
+    </header>
+    
+    <main>
+      <p id="greeting"></p>
+      <p id="description"></p>
+      <header>
+        <h1 id="titl">Dreams</h1>
+        <div id="language-switche">
+          <select id="language-selec" onchange="changLanguage()">
+            <option value="e">English</option>
+            <option value="f">French</option>
+            <option value="p">Swahili</option>
+          </select>
+        </div>
+      </header>
+      
+      <main>
+        <p id="poem">
+          Hold fast to dreams<br>
+          For if dreams die<br>
+          Life is a broken-winged bird<br>
+          That cannot fly.<br>
+          Hold fast to dreams<br>
+          For when dreams go<br>
+          Life is a barren field<br>
+          Frozen with snow.<br>
+        </p>
+        <p id="author">Written By: Joseph Owino</p>
+      </main>
 
-    <h1>Come Back To Me</h1>
-
-    <p>
-    In the mornings when I wake up<br>
-I turn to the empty pillow next to me<br>
-And sometimes I forget you’re not there<br>
-The realization is almost too much to bear<br>
-My arms long for yours<br>
-My lips the same<br>
-I can’t wait until you’re back<br>
-So that I can lay my head on your chest<br>
-And my mornings will be complete<br>
-Next to you I can rest<br>
-I am missing you like mad<br>
-Come back to me soon.<br>
-
-</p>
+   
 <img src="crown.png" alt="" class="backgrounds">
 
-<h1>Don’t Be Gone Too Long</h1>
-<p>
-    I never thought I would feel such pain<br>
-I need you here, to see you again<br>
-I never thought I would miss your touch<br>
-I realized I need it so much<br>
-I never thought I would feel so lost<br>
-And need your love at any cost<br>
-I never thought I would wake up alone<br>
-I need you back, don’t be gone too long<br>
-Come Back Soon<br>
-</p>
+
+   <header>
+    <h1 id="tit">A Book</h1>
+    <div id="language-switch">
+      <select id="language-selct" onchange="chngeLanguage()">
+        <option value="en">English</option>
+        <option value="fr">French</option>
+        <option value="k">Swahili</option>
+      </select>
+    </div>
+  </header>
+  
+  <main>
+    <p id="poe">
+      There is no frigate like a book<br>
+      To take us lands away,<br>
+      Nor any coursers like a page<br>
+      Of prancing poetry.<br>
+      This traverse may the poorest take<br>
+      Without oppress of toll;<br>
+      How frugal is the chariot<br>
+      That bears a human soul!<br>
+    </p>
+    <p id="autho">Written By: Gorge B</p>
+  </main>
 <img src="crown.png" alt="" class="backgrounds">
 
-<h1>Waiting For You To Return</h1>
-<p>
-    The sugar doesn’t seem a sweet<br>
-when you’re not here to kiss me.<br>
-The stars above don’t shine as bright<br>
-when you’re not lying with me.<br>
-My hands are cold without your touch<br>
-and my body seems to shiver.<br>
-I wait for you to return to me<br>
-so we can get warm together.<br>
-</p>
+
+<header>
+  <h1 id="ttle">The Sweat Journey Of Education</h1>
+  <div id="language-switcher">
+    <select id="language-slect" onchange="changelanguage()">
+      <option value="en">English</option>
+      <option value="fr">French</option>
+      <option value="y">Swahili</option>
+    </select>
+  </div>
+</header>
+
+<main>
+  <p id="em">
+    Akoth's daughter Shantel,<br>
+    Excels in secondary without a single dentel.<br>
+    She's now off to join university,<br>
+    Where she'll study with fervor and avidity.<br>
+    She's worked hard to get to this stage,<br>
+    And her success knows no boundary or age.<br>
+    She's ready to soar like an eagle in flight,<br>
+    Her future is bright, like a beacon of light.<br>
+    Akoth's heart swells with pride,<br>
+    For his daughter's achievements can't be denied.<br>
+    He knows that with her dedication and passion,<br>
+    She'll achieve all her goals and make a lasting impression.<br>
+    Shantel's eyes gleam with anticipation,<br>
+    As she steps into a new phase of education.<br>
+    With her head held high and her spirit unbroken,<br>
+    She'll thrive in university and leave a trail unspoken.<br>
+  </p>
+  <p id="auth">Written By: Collins Gachomo</p>
+</main>
+
 </div>
 <img src="crown.png" alt="" class="backgrounds">
 
 <div id="form">
-<h3 >Love Agreement Form</h3>
+<h3 >Registration Form</h3>
 <form class="Registration">
 <label for="first name">First Name</label><br>
-<input type="text" name="First name" placeholder="Enter your first name "/><br>
+<input type="text" name="First name" placeholder="Enter your first name " required/><br>
 <label for="last name">Last Name</label><br>
-<input type="text" name="last name" placeholder="Enter your last name "/><br>
+<input type="text" name="last name" placeholder="Enter your last name " required/><br>
 <label for="email address">Email Address</label><br>
-<input type="text" name="email address" placeholder="Enter your email address "/><br>
+<input type="text" name="email address" placeholder="Enter your email address " required/><br>
 <label for="phone number">Phone Number</label><br>
-<input type="phone number " name="Phone number" placeholder="Enter your phone number  "/><br>
+<input type="phone number " name="Phone number" placeholder="Enter your phone number  " required/><br>
 <label for="id number">ID Number</label><br>
-<input type="text" name="Id number" placeholder="Enter your id number "/><br>
+<input type="text" name="Id number" placeholder="Enter your id number " required/><br>
 <label for="county">County</label><br>
-<input type="text" name="First name" placeholder="Enter your your country "/><br>
+<input type="text" name="First name" placeholder="Enter your your country " required/><br>
 <label for="gender">Gender</label><br>
-<select name="gender">
+<select name="gender" class="gender">
     <option value=""> select </option>
     <option value="female">Female</option>
     <option value="male">Male</option></select><br>
@@ -91,7 +170,7 @@ so we can get warm together.<br>
 <input type="date" name="DOB"/><br>
 
 <label for="password">Password</label><br>
-<input type="password" name="password" placeholder="Enter your password "/><br>
+<input type="password" name="password" placeholder="Enter your password " required/><br>
 <!-- <label for="submit">Submit</label>  -->
 <div class="button">
  <input type="submit"  name="submit"   /> <br>
@@ -106,7 +185,7 @@ so we can get warm together.<br>
 <div id="custom-select">
     
     <select>
-        <option value="">Gifts</option>
+        <option value="">Branded Gifts</option>
 
         <option value="" id="class">Laptop</option>
 
@@ -124,55 +203,59 @@ so we can get warm together.<br>
 
         <option value="">Shoes</option>
 
-        <option value="">Your Heart</option>
+        <option value="">Tickets</option>
 
 </select>
 
 </div>
 <img src="crown.png" alt="" class="backgrounds">
 
-<div id="tables">
-<table class ="table">
-    <thead>
-        <tr class="head">
-            <th>Name</th>
-            <th>Phone Number</th>
-            <th>Email</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td> Daina Victor</td>
-            <td>0753688297</td>
-            <td>dainavic@mtaani-tech.co.ke.</td>
-        
-        </tr>
+ <div id="tables">
 
-    <tr>
-        <td>Daina Victor</td>
-        <td>0753688297</td>
-        <td>dainavic@mtaani-tech.co.ke.</td>
-        
-            
-        </tr>
+<h1>Save to read later and add to your favourite</h1>
 
+  <form id="crud-form">
+    <input type="text" id="number-input" placeholder="No." required>
+    <input type="text" id="title-input" placeholder="Title" required>
+    <input type="text" id="author-input" placeholder="Author" required>
+    <input type="text" id="genre-input" placeholder="Genre " required>  
+    <button type="submit">Create</button>
+  </form>
+
+  <table id="records-table">
     <tr>
-            
-            <td>Daina Victor</td>
-            <td>0753688297</td>
-            <td>dainavic@mtaani-tech.co.ke.</td>
-        
-        </tr>
-        <tr>
-            
-            <td>Daina Victor</td>
-            <td>0753688297</td>
-            <td>dainavic@mtaani-tech.co.ke.</td>
-            
-        </tr>
-        
-        
-</table>
+      <th>Number</th>
+      <th>ID</th>
+      <th>Title></th>
+      <th>Author</th>
+      <th>Genre</th>
+      <th>Actions</th>
+
+    </tr>
+  </table>
+
+  <!-- <header>
+    <h1>Poetry Website</h1>
+  </header> -->
+  
+  <main>
+    <section id="testimonials">
+      <div class="testimonial" id="new-review-container">
+        <h2>Add a Review</h2>
+        <form id="new-review-form">
+          <input type="text" id="name-input" placeholder="Your Name" required><br>
+          <textarea id="review-input" placeholder="Write your review" required></textarea><br><br>
+          <button type="submit">Submit</button><br><br>
+        </form>
+      </div>
+    </section>
+    
+    <section id="reviews">
+      <!-- Existing reviews will be dynamically added here -->
+    </section>
+  </main>
+
+  <script src="love.js"></script>
 </div>
 </div>  
 
